@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>perfil de Liliana</title>
+
+</head>
+<body>
+    <div style="margin :24px;">
+        <nav class="nav navbar-light" style ="background-color: black;"> 
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="color: aqua;">INICIO</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 1</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="perfil.html">Perfil</a><br>
+                        <a class="dropdown-item"
+                        href="calculadora.html">Calculadora</a><br>
+                        <a class="dropdown-item"
+                        href="tienda.html">Tienda parte 1</a>
+
+                        </div>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false" >Unidad 2</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="TiendaPedido.html">tienda pedido</a><br>
+                        <a class="dropdown-item"
+                        href="json.html">JSON</a><br>
+                        <a class="dropdown-item"
+                        href="tiendaPedido2.html">Tienda parte 2</a>
+
+                        </div>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false" >Unidad 3</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="basededatos.html">base de datos</a><br>
+                        <a class="dropdown-item"
+                        href="peliculas.html">Peliculas</a><br>
+
+                        </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <style>
+        body{
+            background-color:#b775d1 ;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(240, 238, 245);/*esto es e color para la letra*/
+            text-align: center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: rgb(89, 55, 134);
+            padding: 20px;
+            box-shadow: 0 0 10px rgb(58, 22, 99);
+
+        }
+        .foto-perfil {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+
+        }
+        ul{
+            list-style: circle;
+            padding: right;
+        }
+    </style>
+    <div class="perfil">
+        <img src="uva.avif".alt="el lobo sopla y tumba la casa mami" class="foto-perfil">
+        <h1 id="nombre">Liliana Guerrero</h1>
+        <h3 id="especialidad">Especialidad de cetis:PROGRAMACION </h3>
+        <h2>gustos personales:VER SERIES</h2>
+        <ul>
+            <li id="musica">Musica favorita:ARIEL CAMACHO,JUNIOR h</li>
+            <li id="programa">Programa favoritos:NO TENGO</li>
+        </ul>
+        <h2>Informacion de contacto </h2>
+        <p id="">Telefono=899 469 1272</p>
+        <p id="">Correo:lili2534@gmail.com</p>
+        <p id="">Biografia:Holaaaa soy lili</p>
+
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            document.getElementById('Nombre').textContent="liliana guerrero";
+            document.getElementById('Especialidad').textContent="programacion";
+            document.getElementById('Musica').textContent="ariel camacho, junior h";
+            document.getElementById('Nombre').textContent="liliana guerrero";
+            document.getElementById('Programas').textContent="no tengo";
+            document.getElementById('Telefono').textContent="899 469 1272";
+            document.getElementById('Correo').textContent="lili2534@gmail.com";
+            document.getElementById('Biografia').textContent="Holaaa soy lili";
+
+        })
+    </script>
+
+</body>
+</html>
